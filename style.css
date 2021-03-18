@@ -1,0 +1,166 @@
+
+body{
+    background-color:#F1B24A ;
+    /* background-color:#9DC88D ; */
+    color:#164A41;
+
+}
+
+h4{
+  margin-left:2.5em;
+    font-size:2.25em;
+    color:#164A41;
+    font-weight: bold;
+    margin-top:2.5em;
+}
+
+.col {
+    background-color: grey;
+    border: 2px solidredblack;
+}
+
+/* --------Navbar---------- */
+.navbar{
+    background-color:#F1B24A; 
+    font-size: 1.6em;
+    display: inline;
+    border-bottom: 2px solid #4D774E;
+}
+
+.navbar-brand{
+    padding-top: 0%;
+}
+
+
+/* --------Big Image on main screen---------- */
+.jumbotron{
+    background-image: url("restaurant.jpg"); 
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    border: 1px solid r 
+}
+
+/* --------Dropdown Menu---------- */
+.dropdown-menu {
+  background-color: #4D774E;
+  color: #F1B24A;
+  border: 1px solid #F1B24A;
+}
+.dropdown-item {
+  background-color: #4D774E;
+  color: #F1B24A;
+}
+#navbarScrollingDropdown{
+    color: #4D774E;
+}
+
+
+/* --------Greeting/Other Headings---------- */
+#greeting{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%
+}
+#greetingHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size:2em;
+    font-weight: bold;
+    color:#164A41;
+}
+.greetingParagraph{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size:1.125em;
+    font-weight: 500;
+    margin-left: 3em;
+}
+
+#description{
+    margin-left:20px;
+}
+
+#prices{
+    margin-left:80px;
+}
+
+.col {
+    background-color: grey;
+    border: 2pxs solid redblack;
+}
+
+.para1, 
+.pasta, 
+.pizza, 
+.drinks,
+.contactUs
+{
+  border: 2px solid #4D774E;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+/* --------Button formatting---------- */
+.btn1 {
+  background-color: #4D774E;
+  border: none;
+  color: #F1B24A;
+  padding: 06px 15px;
+  text-align: center;
+  align-items:baseline;
+  border-radius: 22px;
+  font-size: 21px;
+}
+.btn1:hover {
+  background-color: #164A41;
+  color: #FFFFFF;
+}
+
+
+/* --------galleryPage.html formatting ----------- */
+
+.pizzaGal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pastaGal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itemHdg {
+  font-family: fantasy;
+  font-size: 3em;
+  /* border-bottom: 2px solid #4D774E; */
+  /* border-right: 2px solid #4D774E; */
+  width: 400px;
+  text-align: center;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+
+
+    
